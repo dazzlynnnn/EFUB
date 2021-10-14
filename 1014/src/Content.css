@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Fredo ka+One&display=swap");
+
+.container {
+    text-align: center;
+    text-transform: uppercase;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
+h1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin-top: -30px;
+    letter-spacing: 25px;
+    color: #fff;
+    font: 900 60px Montserrat;
+    text-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    scroll-snap-align: center;
+}
+
+.section-1 {
+    background: url("https://source.unsplash.com/Fw3KJQb_Dyg/4032×3021") no-repeat center center / cover;
+}
+
+.section-2 {
+    background: url("https://source.unsplash.com/TFyi0QOx08c/2200×1467") center center / cover;
+}
+
+.typo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 200vh;
+}
+
+span {
+    position: sticky;
+    top: calc(50% - 50px);
+    font-family: "Fredoka One", sans-serif;
+    font-size: 120px;
+}
+.t1 {
+    margin-top: 10vw;
+}
+.t2 {
+    margin-top: 20vw;
+}
+.t3 {
+    margin-top: 30vw;
+}
+.t4 {
+    margin-top: 40vw;
+}
+.t5 {
+    margin-top: 50vw;
+}
